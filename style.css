@@ -1,0 +1,25 @@
+#greyTable: {
+	border: 0;
+	/*cellspacing: 5;*/
+	border-collapse: collapse;
+	width: 96%;
+	background-color: #d6e7ef;
+	
+}
+
+#greyTable.a:link: {
+	color: #ff0000;
+}
+
+#greyTable.a:active: {
+	color: #0033cc;
+}
+
+#greyTable.a:visited: {
+	color: #660000;
+}
+ #greyTable.td: {
+	width: 14%;
+	margin: auto;
+}
+
