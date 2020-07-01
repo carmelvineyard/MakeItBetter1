@@ -1,25 +1,27 @@
-#greyTable: {
-	border: 0;
-	/*cellspacing: 5;*/
-	border-collapse: collapse;
-	width: 96%;
+.greytable {
 	background-color: #d6e7ef;
-	
-}
-
-#greyTable.a:link: {
-	color: #ff0000;
-}
-
-#greyTable.a:active: {
-	color: #0033cc;
-}
-
-#greyTable.a:visited: {
-	color: #660000;
-}
- #greyTable.td: {
-	width: 14%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	width: 96%;
 	margin: auto;
 }
 
+.innerGreyTable>a {
+	color: #ff0000;
+	padding: 2%;
+	font-family: Verdana;
+	font-size: small;
+	font-weight: bold;
+}
+
+.innerGreyTable>a:active {
+	color: #0033cc;
+}
+
+.innerGreyTable>a:hover {
+	color: #0033cc;
+}
+
+.innerGreyTable>a:visited {
+	color: #660000;
+}
